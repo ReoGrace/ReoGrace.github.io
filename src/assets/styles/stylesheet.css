@@ -1,0 +1,455 @@
+.Top {
+    background-image: url(../images/topimage.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    position: relative; 
+  }
+
+.Top-inner {
+    font-size: 90px;
+    font-family: "BIZ UDPゴシック";
+    color: #404040;
+    position: absolute;
+    top: 36%;
+    left: 51%;
+    font-weight: bold;  
+    text-align: left; 
+}
+
+.Top-inner > * {
+    margin: 0;  
+    padding: 0;
+    line-height: 1.2; 
+  }
+
+.Contact {
+    background-color: #7C7C7C;
+    text-align: center;  
+}
+
+.Contact-inner {
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+
+.Contact-Snake {
+  width: 60px; 
+  height: 60px;
+  animation: spin 5s linear infinite;
+  display: block;    
+  margin: 0 auto; 
+  padding: 20px 0;
+}
+
+
+.Vision-headline {
+  font-size: 80px; 
+  font-weight: bold;
+  margin: 0;
+  color: #7F7F7F;
+  font-family: "BIZ UDPゴシック";
+  padding: 60px 0 20px 0;
+  text-align: center;
+}
+
+.Vision-headline .Vision-headline-V {
+  font-size: 93px; 
+  line-height: 1;  
+  display: inline-block;
+}
+
+.Vision-catchphrase {
+  font-size: 78px; 
+  font-weight: bold;
+  margin: 0;
+  color: black;
+  font-family: "游ゴシック 本文";
+  padding: 45px 20px 20px 20px;
+  text-align: center;
+}
+
+.Vision-catchphrase .Vision-catchphrase-Save {
+  font-size: 90px;
+  color: red;
+}
+
+.Vision-catchphrase .Vision-catchphrase-Lives {
+  font-size: 90px;
+  color: #00B050;
+}
+
+.Vision-catchphrase > * {
+    margin: 0;  
+    padding: 0;
+    line-height: 1.2; 
+  }
+
+.Vision-line {
+  display: block; 
+  max-width: 65%; 
+  width: auto; 
+  margin: 0 auto;
+}
+
+.Vision-text {
+  font-size: 23px; 
+  font-weight: bold;
+  margin: 0;
+  color: black;
+  font-family: "Cambria";
+  padding: 50px 40px 100px 40px;
+  text-align: center;
+}
+
+.Vision-text > * {
+    margin: 0;  
+    padding: 0;
+    line-height: 1.5; 
+}
+
+.Skills-headline {
+  font-size: 80px; 
+  font-weight: bold;
+  margin: 0;
+  color: #7F7F7F;
+  font-family: "BIZ UDPゴシック";
+  padding: 50px 0 65px 0;
+  text-align: center;
+}
+
+.Skills-headline .Skills-headline-S {
+  font-size: 93px; 
+  line-height: 1;  
+  display: inline-block;
+}
+
+.SkillsCard-inner-image {
+  width: 50%;
+  height: auto;
+  padding: 20px 0 0 0;
+  margin: 0 auto;
+  display: block;
+}
+
+.SkillsCard-inner-name {
+  font-size: 50px; 
+  font-weight: bold;
+  margin: 0;
+  font-family: "游ゴシック 本文";
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
+
+.SkillsCard-inner-text {
+  font-size: 25px; 
+  font-weight: bold;
+  margin: 0;
+  font-family: "Cambria";
+  padding: 0 0 20px 0;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+.Skills-list {
+  display: flex;  
+  flex-direction: row; 
+  gap: 1rem;  
+}
+
+.Interests-headline {
+  font-size: 80px; 
+  font-weight: bold;
+  margin: 0;
+  color: #7F7F7F;
+  font-family: "BIZ UDPゴシック";
+  padding: 100px 0 65px 0;
+  text-align: center;
+}
+
+.Interests-headline .Interests-headline-I {
+  font-size: 93px; 
+  line-height: 1;  
+  display: inline-block;
+}
+
+.InterestsCard-inner-image {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.InterestsCard-inner-name {
+  font-size: 40px; 
+  font-weight: bold;
+  margin: 0;
+  font-family: "游ゴシック 本文";
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
+
+.InterestsCard-inner-text {
+  font-size: 25px; 
+  font-weight: bold;
+  margin: 0;
+  font-family: "Cambria";
+  padding: 0 0 20px 0;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+.Interests-list {
+  display: flex;
+  gap: 1rem; 
+  align-items: flex-start; 
+}
+
+.Interests-list .InterestsCard {
+  flex: 0 0 calc((100% - 2rem) / 3);
+  box-sizing: border-box; 
+}
+
+
+.Interests-white {
+  font-size: 60px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+}
+
+.modal-inner {
+  position: absolute;
+  top: 8%;
+  right: 0;
+  left: 0;
+  width: 480px;
+  padding-bottom: 60px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  z-index: 1001;
+}
+
+.modal-header {
+  height: 22px;
+  width: 100%;
+  margin-bottom: 60px;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/topimage.png");
+}
+
+.modal-introduction {
+  color: black;
+  width: 384px;
+  line-height: 32px;
+  text-align: center;
+  margin: 40px auto 40px;
+  white-space: normal;   
+  word-break: normal;        
+  overflow-wrap: break-word;   
+}
+
+.modal-introduction h2 {
+  font-size: 40px; 
+  font-weight: bold;
+  font-family: "游ゴシック 本文";
+}
+
+.modal-introduction p {
+  font-size: 20px; 
+  font-family: "Cambria";
+}
+
+.modal-close-btn {
+  display: block;   
+  margin: 0 auto;
+  font-size: 13px;
+  color: #8491a5;
+  width: 200px;
+  padding: 16px 0;
+  border: 0;
+  background-color: #f0f4f9;
+  cursor: pointer;
+}
+
+.modal-close-btn:hover {
+  color: #8491a5;
+  background-color: #ccd9ea;
+  transition: 0.3s ease-in-out;
+}
+
+.SkillsCard-inner {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 20px;
+}
+
+.InterestsCard-inner {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 7px;
+}
+
+
+@media (max-width: 767px) {
+  .Top-inner {
+    font-size: 40px;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 80%;  
+  }
+  .Skills-list,
+  .Interests-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .Skills-list .SkillsCard,
+  .Interests-list .InterestsCard {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .modal-inner {
+    width: 90%;  
+  }
+  .Vision-headline {
+    font-size: 50px;    
+    padding: 40px 0 20px 0; 
+  }
+  .Vision-headline .Vision-headline-V {
+    font-size: 60px;    
+  }
+
+  .Skills-headline {
+    font-size: 50px;  
+    padding: 60px 0 40px 0;
+  }
+  .Skills-headline .Skills-headline-S {
+    font-size: 60px;   
+  }
+
+  .Interests-headline {
+    font-size: 50px;   
+    padding: 60px 20px 40px 0;
+  }
+  .Interests-headline .Interests-headline-I {
+    font-size: 60px;    
+  }
+  .Vision-catchphrase {
+    font-size: 50px;    
+    padding: 30px 10px 10px 10px;  
+  }
+  .Vision-catchphrase .Vision-catchphrase-Save,
+  .Vision-catchphrase .Vision-catchphrase-Lives {
+    font-size: 60px;    
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .Top-inner {
+    font-size: 55px;
+    top: 34%;
+    left: 50%;
+  }
+  .Skills-list,
+  .Interests-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .Skills-list .SkillsCard,
+  .Interests-list .InterestsCard {
+    flex: 0 0 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+  }
+  .Vision-headline,
+  .Skills-headline,
+  .Interests-headline {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .Vision-catchphrase {
+    font-size: 60px;    
+    padding: 30px 10px 10px 10px;  
+  }
+  .Vision-catchphrase .Vision-catchphrase-Save,
+  .Vision-catchphrase .Vision-catchphrase-Lives {
+    font-size: 70px;    
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1300px) {
+  .Top-inner {
+    font-size: 75px;
+    top: 34%;
+    left: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Skills-list,
+  .Interests-list {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .Interests-list .InterestsCard {
+    flex: 0 0 calc((100% - 4rem) / 3);
+    max-width: calc((100% - 4rem) / 3);
+  }
+}
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.Vision-catchphrase {
+  opacity: 0;
+}
+
+.animate-catch {
+  animation: fadeIn 1.3s ease-out forwards;
+  animation-delay: 0.2s;
+}
+
+.Top-inner p {
+  opacity: 0;
+}
+
+.Top-inner p.animate-catch {
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+.Top-inner p.delay {
+  animation-delay: 0.7s;
+}
